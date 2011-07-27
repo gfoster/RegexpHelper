@@ -3,7 +3,7 @@
 #  RegexpHelper
 #
 #  Created by Gary Foster on 7/23/11.
-#  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+#  Copyright (c) 2011. All rights reserved.
 #
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can
