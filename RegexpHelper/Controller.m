@@ -9,6 +9,19 @@
 #import "Controller.h"
 
 @implementation Controller
+@synthesize matchPattern;
+@synthesize matchText;
+
+@synthesize match0;
+@synthesize match1;
+@synthesize match2;
+@synthesize match3;
+@synthesize match4;
+@synthesize match5;
+@synthesize match6;
+@synthesize match7;
+@synthesize match8;
+@synthesize match9;
 
 - (id)init
 {
