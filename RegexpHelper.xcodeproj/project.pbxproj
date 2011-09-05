@@ -16,6 +16,8 @@
 		EA07C28513FCCD59001BE15E /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = EAE8B5EC13DB208A005624FC /* AppDelegate.rb */; };
 		EA07C28613FCCD59001BE15E /* Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = EA380C2B13E102C9004EC017 /* Controller.rb */; };
 		EA380C2C13E102C9004EC017 /* Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = EA380C2B13E102C9004EC017 /* Controller.rb */; };
+		EA4FE13D141487C900BB5B90 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = EA4FE13C141487C900BB5B90 /* Icon.icns */; };
+		EA4FE13E141487C900BB5B90 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = EA4FE13C141487C900BB5B90 /* Icon.icns */; };
 		EA8C604713FCD42D00FCA9C4 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8BA93813FCC46300CC1BB1 /* Controller.m */; };
 		EAE8B5D813DB208A005624FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE8B5D713DB208A005624FC /* Cocoa.framework */; };
 		EAE8B5DA13DB208A005624FC /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE8B5D913DB208A005624FC /* MacRuby.framework */; };
@@ -30,6 +32,7 @@
 		EA07C28A13FCCD59001BE15E /* RegexpHelper copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RegexpHelper copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA07C28C13FCCD5A001BE15E /* RegexpHelper copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RegexpHelper copy-Info.plist"; path = "/Users/gfoster/projects/Xcode/RegexpHelper/RegexpHelper copy-Info.plist"; sourceTree = "<absolute>"; };
 		EA380C2B13E102C9004EC017 /* Controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Controller.rb; sourceTree = "<group>"; };
+		EA4FE13C141487C900BB5B90 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		EA8BA93713FCC46300CC1BB1 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		EA8BA93813FCC46300CC1BB1 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 		EAE8B5D313DB208A005624FC /* RegexpHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegexpHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +124,7 @@
 		EAE8B5E513DB208A005624FC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EA4FE13C141487C900BB5B90 /* Icon.icns */,
 				EAE8B5E613DB208A005624FC /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -222,6 +226,7 @@
 				EA07C28413FCCD59001BE15E /* rb_main.rb in Resources */,
 				EA07C28513FCCD59001BE15E /* AppDelegate.rb in Resources */,
 				EA07C28613FCCD59001BE15E /* Controller.rb in Resources */,
+				EA4FE13E141487C900BB5B90 /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +239,7 @@
 				EAE8B5EB13DB208A005624FC /* rb_main.rb in Resources */,
 				EAE8B5ED13DB208A005624FC /* AppDelegate.rb in Resources */,
 				EA380C2C13E102C9004EC017 /* Controller.rb in Resources */,
+				EA4FE13D141487C900BB5B90 /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +296,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RegexpHelper/RegexpHelper-Prefix.pch";
 				INFOPLIST_FILE = "RegexpHelper copy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "RegexpHelper copy";
 				WRAPPER_EXTENSION = app;
 			};
@@ -306,6 +313,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RegexpHelper/RegexpHelper-Prefix.pch";
 				INFOPLIST_FILE = "RegexpHelper copy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "RegexpHelper copy";
 				WRAPPER_EXTENSION = app;
 			};
@@ -331,9 +339,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
@@ -352,8 +360,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 				VALID_ARCHS = x86_64;
 			};
 			name = Release;
@@ -369,6 +377,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RegexpHelper/RegexpHelper-Prefix.pch";
 				INFOPLIST_FILE = "RegexpHelper/RegexpHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RegexpHelper/RegexpHelper-Prefix.pch";
 				INFOPLIST_FILE = "RegexpHelper/RegexpHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,12 +403,14 @@
 		EAE8B5F413DB208A005624FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
 		EAE8B5F513DB208A005624FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
