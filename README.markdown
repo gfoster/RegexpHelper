@@ -17,3 +17,4 @@ results of positional matches are displayed in the appropriate windows
 It's mainly a learning exercise using Macruby, Lion and Xcode although it is a
 handy little utility to have around.  Feel free to send me requests for any
 additional functionality you'd like to see.
+
